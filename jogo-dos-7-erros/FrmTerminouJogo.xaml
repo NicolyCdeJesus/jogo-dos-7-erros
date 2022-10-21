@@ -1,0 +1,19 @@
+﻿<Window x:Class="jogo_dos_7_erros.FrmTerminouJogo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jogo_dos_7_erros"
+        mc:Ignorable="d"
+        Title="FrmTerminouJogo" Height="250" Width="400"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBlock x:Name="txtTituloParabens" HorizontalAlignment="Center"  Margin="1,0,0,0" TextWrapping="Wrap" Text="Jogo dos 7 Erros" VerticalAlignment="Top" Width="800" Height="30" Background="MediumTurquoise" FontSize="22" FontFamily="Arial" RenderTransformOrigin="0.264,1.462" TextAlignment="Center"/>
+        <TextBlock x:Name="txtErrosForamEncontrados" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Você encontrou todos os erros." VerticalAlignment="Top" TextAlignment="Left" Margin="0,80,0,0" FontSize="18"/>
+        <TextBlock x:Name="txtParabens" HorizontalAlignment="Center" Margin="0,105,0,0" TextWrapping="Wrap" Text="Parabéns!" VerticalAlignment="Top" TextAlignment="Center" FontSize="18"/>
+        <Button x:Name="btnOk" Content="OK" HorizontalAlignment="Center" Margin="0,170,0,0" VerticalAlignment="Top" FontSize="16" Height="35" Width="79" Background="MediumTurquoise"/>
+
+
+    </Grid>
+</Window>

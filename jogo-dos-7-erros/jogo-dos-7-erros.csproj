@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>jogo_dos_7_erros</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="acerto.png" />
+    <None Remove="imagem-invisivel.png" />
+    <None Remove="imagem-monica-com-erros.png" />
+    <None Remove="imagem-monica-sem-erros.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="acerto.png" />
+    <Resource Include="imagem-invisivel.png" />
+    <Resource Include="imagem-monica-com-erros.png" />
+    <Resource Include="imagem-monica-sem-erros.png" />
+  </ItemGroup>
+
+</Project>

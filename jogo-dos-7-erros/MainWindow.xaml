@@ -1,0 +1,43 @@
+﻿<Window x:Class="jogo_dos_7_erros.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jogo_dos_7_erros"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="302" Margin="38,80,0,0" VerticalAlignment="Top" Width="327" Source="/imagem-monica-sem-erros.png"/>
+        <Image HorizontalAlignment="Left" Height="304" Margin="420,80,0,0" VerticalAlignment="Top" Width="331" Source="/imagem-monica-com-erros.png"/>
+
+        <Image x:Name="imgVazio1" HorizontalAlignment="Left" Height="21" Margin="468,314,0,0" VerticalAlignment="Top" Width="23" Source="/imagem-invisivel.png" MouseLeftButtonDown="erro1"/>
+        <Image x:Name="imgDoErro1" HorizontalAlignment="Left" Height="26" Margin="469,312,0,0" VerticalAlignment="Top" Width="25" Source="/acerto.png"/>
+
+        <Image x:Name="imgVazio2" HorizontalAlignment="Left" Height="21" Margin="435,218,0,0" VerticalAlignment="Top" Width="23" Source="/imagem-invisivel.png" MouseLeftButtonDown="erro2"/>
+        <Image x:Name="imgDoErro2" HorizontalAlignment="Left" Height="26" Margin="433,217,0,0" VerticalAlignment="Top" Width="25" Source="/acerto.png"/>
+
+        <Image x:Name="imgDoErro3" HorizontalAlignment="Left" Height="21" Margin="593,270,0,0" VerticalAlignment="Top" Width="23" Source="/acerto.png"/>
+        <Image x:Name="imgVazio3" HorizontalAlignment="Left" Height="26" Margin="593,276,0,0" VerticalAlignment="Top" Width="24" Source="/imagem-invisivel.png" MouseLeftButtonDown="erro3"/>
+
+        <Image x:Name="imgDoErro4" HorizontalAlignment="Left" Height="21" Margin="502,138,0,0" VerticalAlignment="Top" Width="23" Source="/acerto.png"/>
+        <Image x:Name="imgVazio4" HorizontalAlignment="Left" Height="26" Margin="502,137,0,0" VerticalAlignment="Top" Width="25" Source="/imagem-invisivel.png" MouseLeftButtonDown="erro4"/>
+
+        <Image x:Name="imgDoErro5" HorizontalAlignment="Left" Height="21" Margin="662,95,0,0" VerticalAlignment="Top" Width="23" Source="/acerto.png"/>
+        <Image x:Name="imgVazio5" HorizontalAlignment="Left" Height="26" Margin="663,94,0,0" VerticalAlignment="Top" Width="22" Source="/imagem-invisivel.png" MouseLeftButtonDown="erro5"/>
+
+        <Image x:Name="imgDoErro6" HorizontalAlignment="Left" Height="21" Margin="724,260,0,0" VerticalAlignment="Top" Width="22" Source="/acerto.png"/>
+        <Image x:Name="imgVazio6" HorizontalAlignment="Left" Height="26" Margin="724,259,0,0" VerticalAlignment="Top" Width="22" Source="/imagem-invisivel.png" MouseLeftButtonDown="erro6"/>
+
+        <Image x:Name="imgDoErro7" HorizontalAlignment="Left" Height="21" Margin="706,160,0,0" VerticalAlignment="Top" Width="23" Source="/acerto.png"/>
+        <Image x:Name="imgVazio7" HorizontalAlignment="Left" Height="26" Margin="705,160,0,0" VerticalAlignment="Top" Width="22" Source="/imagem-invisivel.png" MouseLeftButtonDown="erro7"/>
+
+        <TextBlock x:Name="txtTituloJogo" HorizontalAlignment="Center"  Margin="1,0,0,0" TextWrapping="Wrap" Text="Jogo dos 7 Erros" VerticalAlignment="Top" Width="800" Height="30" Background="MediumTurquoise" FontSize="22" FontFamily="Arial" RenderTransformOrigin="0.264,1.462" TextAlignment="Center"/>
+
+
+
+    </Grid>
+</Window>
